@@ -1,0 +1,684 @@
+﻿
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Maria Petrova
+  Position = Trainee
+  Salary = 1500
+  WorkplaceCity = Sofia
+  Email = m.petrova@soft.com
+  Phone = +359 888 253 789
+  Project = AngularJS Course
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Maria Petrova
+  Position = Junior
+  Salary = 1600
+  WorkplaceCity = Sofia
+  Email = m.ivanova@soft.com
+  Phone = +359 888 547 123
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Ivan Grozdev
+  Position = Junior
+  Salary = 1700
+  WorkplaceCity = Sofia
+  Email = i.grozdev@soft.com
+  Phone = +359 888 228 865
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Atanas Georgiev
+  Position = Junior
+  Salary = 1500
+  WorkplaceCity = Sofia
+  Email = a.georgiev@soft.com
+  Phone = +359 888 987 159
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Ivailo Popov
+  Position = Junior
+  Salary = 1800
+  WorkplaceCity = Sofia
+  Email = i.popov@soft.com
+  Phone = +359 888 753 159
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Stefan Djamdjiev
+  Position = Junior
+  Salary = 2000
+  WorkplaceCity = Sofia
+  Email = s.djamdjiev@soft.com
+  Phone = +359 888 946 287
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Aleksandur Stoianov
+  Position = Intermediate
+  Salary = 2400
+  WorkplaceCity = Sofia
+  Email = a.stoianov@soft.com
+  Phone = +359 888 874 125
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Pavel Petrov
+  Position = Intermediate
+  Salary = 2300
+  WorkplaceCity = Sofia
+  Email = p.petrov@soft.com
+  Phone = +359 888 457 934
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Aleksei Trifonov
+  Position = Intermediate
+  Salary = 2500
+  WorkplaceCity = Sofia
+  Email = a.trifonov@soft.com
+  Phone = +359 888 756 148
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Petur Ivanov
+  Position = Senior
+  Salary = 2900
+  WorkplaceCity = Plovdiv
+  Email = p.ivanov@soft.com
+  Phone = +359 888 785 412
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Stanimir Petkov
+  Position = Senior
+  Salary = 3500
+  WorkplaceCity = Plovdiv
+  Email = s.petkov@soft.com
+  Phone = +359 888 745 236
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Petko Grozdanov
+  Position = Senior
+  Salary = 3300
+  WorkplaceCity = Plovdiv
+  Email = p.grozdanov@soft.com
+  Phone = +359 888 658 412
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Garry Stevens
+  Position = Team Leader
+  Salary = 4500
+  WorkplaceCity = New York
+  Email = g.stevens@soft.com
+  Phone = +34 388 423 234
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Michael Reece
+  Position = Team Leader
+  Salary = 5100
+  WorkplaceCity = New York
+  Email = m.reece@soft.com
+  Phone = +43 098 324 034
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Greg Bush
+  Position = Project Manager
+  Salary = 6200
+  WorkplaceCity = New York
+  Email = g.bush@soft.com
+  Phone = +1 231 230 132 
+  Project = Pharmacy OnlineStore
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Jordan Ivanovic
+  Position = Project Manager
+  Salary = 6500
+  WorkplaceCity = New York
+  Email = j.ivanovic@soft.com
+  Phone = +11 213 213 123
+  Project = Web Based Bussiness Software
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = Peter Pan
+  Position = Delivery Director
+  Salary = 7000
+  WorkplaceCity = Munich
+  Email = p.pan@soft.com
+  Phone = +12 210 233 434
+  Project = Pharmacy OnlineStore, Web Based Bussiness Software
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 13:52:52 ч.--------------------
+
+----------------------------------
+
+  Name = John Green
+  Position = CEO
+  Salary = 9500
+  WorkplaceCity = London
+  Email = j.green@soft.com
+  Phone = +5 213 112 312
+  Project = 
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = 
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Maria Petrova
+  Position = Trainee
+  Salary = 1500
+  WorkplaceCity = Sofia
+  Email = m.petrova@soft.com
+  Phone = +359 888 253 789
+  Project = AngularJS Course
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Maria Petrova
+  Position = Junior
+  Salary = 1600
+  WorkplaceCity = Sofia
+  Email = m.ivanova@soft.com
+  Phone = +359 888 547 123
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Ivan Grozdev
+  Position = Junior
+  Salary = 1700
+  WorkplaceCity = Sofia
+  Email = i.grozdev@soft.com
+  Phone = +359 888 228 865
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Atanas Georgiev
+  Position = Junior
+  Salary = 1500
+  WorkplaceCity = Sofia
+  Email = a.georgiev@soft.com
+  Phone = +359 888 987 159
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Ivailo Popov
+  Position = Junior
+  Salary = 1800
+  WorkplaceCity = Sofia
+  Email = i.popov@soft.com
+  Phone = +359 888 753 159
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Stefan Djamdjiev
+  Position = Junior
+  Salary = 2000
+  WorkplaceCity = Sofia
+  Email = s.djamdjiev@soft.com
+  Phone = +359 888 946 287
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Aleksandur Stoianov
+  Position = Intermediate
+  Salary = 2400
+  WorkplaceCity = Sofia
+  Email = a.stoianov@soft.com
+  Phone = +359 888 874 125
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Pavel Petrov
+  Position = Intermediate
+  Salary = 2300
+  WorkplaceCity = Sofia
+  Email = p.petrov@soft.com
+  Phone = +359 888 457 934
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Aleksei Trifonov
+  Position = Intermediate
+  Salary = 2500
+  WorkplaceCity = Sofia
+  Email = a.trifonov@soft.com
+  Phone = +359 888 756 148
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Petur Ivanov
+  Position = Senior
+  Salary = 2900
+  WorkplaceCity = Plovdiv
+  Email = p.ivanov@soft.com
+  Phone = +359 888 785 412
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Stanimir Petkov
+  Position = Senior
+  Salary = 3500
+  WorkplaceCity = Plovdiv
+  Email = s.petkov@soft.com
+  Phone = +359 888 745 236
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = Garry Stevens
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Petko Grozdanov
+  Position = Senior
+  Salary = 3300
+  WorkplaceCity = Plovdiv
+  Email = p.grozdanov@soft.com
+  Phone = +359 888 658 412
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Garry Stevens
+  Position = Team Leader
+  Salary = 4500
+  WorkplaceCity = New York
+  Email = g.stevens@soft.com
+  Phone = +34 388 423 234
+  Project = Pharmacy OnlineStore
+  Project Manager = Greg Bush
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Michael Reece
+  Position = Team Leader
+  Salary = 5100
+  WorkplaceCity = New York
+  Email = m.reece@soft.com
+  Phone = +43 098 324 034
+  Project = Web Based Bussiness Software
+  Project Manager = Jordan Ivanovic
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Greg Bush
+  Position = Project Manager
+  Salary = 6200
+  WorkplaceCity = New York
+  Email = g.bush@soft.com
+  Phone = +1 231 230 132 
+  Project = Pharmacy OnlineStore
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Jordan Ivanovic
+  Position = Project Manager
+  Salary = 6500
+  WorkplaceCity = New York
+  Email = j.ivanovic@soft.com
+  Phone = +11 213 213 123
+  Project = Web Based Bussiness Software
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = Peter Pan
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = Peter Pan
+  Position = Delivery Director
+  Salary = 7000
+  WorkplaceCity = Munich
+  Email = p.pan@soft.com
+  Phone = +12 210 233 434
+  Project = Web Based Bussiness Software
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = John Green
+
+----------------------------------
+
+
+-------------------12.8.2016 г. 17:22:16 ч.--------------------
+
+----------------------------------
+
+  Name = John Green
+  Position = CEO
+  Salary = 9500
+  WorkplaceCity = London
+  Email = j.green@soft.com
+  Phone = +5 213 112 312
+  Project = 
+  Project Manager = 
+  TeamLeader = 
+  Delivery Director = 
+  Ceo = 
+
+----------------------------------
+

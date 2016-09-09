@@ -1,0 +1,24 @@
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\bin\Debug\HR_System.exe.config
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\bin\Debug\HR_System.exe
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\bin\Debug\HR_System.pdb
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\obj\Debug\HR_System.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\obj\Debug\HR_System.exe
+c:\users\user\documents\visual studio 2015\Projects\HR_System\HR_System\obj\Debug\HR_System.pdb
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\bin\Debug\HR_System.exe.config
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\obj\Debug\HR_System.exe
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\obj\Debug\HR_System.pdb
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\bin\Debug\HR_System.exe
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\bin\Debug\HR_System.pdb
+C:\Users\ttriftc\Documents\Visual Studio 2013\Projects\HR_System\HR_System\obj\Debug\HR_System.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_v1.1\HR_System\bin\Debug\HR_System.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_v1.1\HR_System\obj\Debug\HR_System.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_v1.1\HR_System\obj\Debug\HR_System.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_First_version\HR_System\bin\Debug\HR_System.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_First_version\HR_System\obj\Debug\HR_System.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\HR_System_First_version\HR_System\obj\Debug\HR_System.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\bin\Debug\HR_System.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\obj\Debug\HR_System.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\obj\Debug\HR_System.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\bin\Debug\HR_System.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\bin\Debug\HR_System.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\old Projects\HR_System_First_version\HR_System\obj\Debug\HR_System.csprojResolveAssemblyReference.cache
