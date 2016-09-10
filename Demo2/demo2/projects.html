@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Construction and renovation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <div id="logo">
+                    <img src="images/logo/logo.png" alt="logo" />
+                </div>
+                <ul>
+                    <li><a href="home.html" id="active">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li id="first-project"><a href="contacts.html">Contacts</a></li>
+                    <!--here the id first-project is to locate the smooth slide-->
+                </ul>
+            </nav>
+        </header>
+        <content id="project-page">
+            <div id="side-menu">
+                <div id="all-projects">
+                    <ul>
+                        <li>
+                            <h3>Select Project</h3>
+                        </li>
+                        <li>
+                            <a href="#first-project"><img src="images/project1/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#second-project"><img src="images/project2/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#third-project"><img src="images/project3/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#fourth-project"><img src="images/project4/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#fifth-project"><img src="images/project5/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li><button id="open-close-calculator"><h4>Calculate renovation</h4></button></li>
+                    </ul>
+                </div>
+                <div id="calculator">
+                    <h3>Renovation Calculator</h3>
+                    <div id="calculator-body">
+                        <form>
+                            <h4>Choose isolation material</h4>
+                            <select name="material" required>
+                                <option></option>
+                                <option value="eps">EPS</option>
+                                <option value="neopor">Neopor</option>
+                            </select>
+                            <h4>Choose width of isolation material</h4>
+                            <select name="widthOfMaterial" id="generatedOutput" required>
+                            </select>
+                            <h4><input type="checkbox" name="scaffold" value="2.60">Delivery, installation and dismantling of
+                                scaffold (2.60lv m<sup>2</sup>)</h4>
+                            <h4><input type="checkbox" name="strips" value="8">Installation of self-draining and strips (8lv
+                                m
+                                <sup>2</sup>)</h4>
+                            <h4><input type="checkbox" name="roofs" value="10">Installation of galvanized roofs (10lv m<sup>2</sup>)</h4>
+                            <h4><input type="checkbox" name="mRunner" value="12">Main Runner (12lv m<sup>2</sup>)</h4>
+                            <h4>How many m2?<input type="number" name="quantity" min="1" max="10000" required/></h4>
+                            <strong>Important! Please when you change functions above, re-enter your m<sup>2</sup></strong>
+                            <h4>Total: <span id="total"></span></h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+<!-- Developing the new slider that run simultaneously in multiple containers-->
+       <!--     <div class="project-page-projects">
+                <div onload="slideShow()" class="project-page-carousel-container">
+                    <div class="picture-container">
+                        <img id="picture" src="images/projects/p1-big1.png" alt="project">
+                    </div>
+                </div>
+            </div>
+            <div class="project-page-projects">
+                <div onload="slideShow()" class="project-page-carousel-container">
+                    <div class="picture-container">
+                        <img id="picture" src="images/projects/p2-big1.png" alt="project">
+                    </div>
+                </div>
+            </div>
+             <div class="project-page-projects">
+                <div onload="slideShow()" class="project-page-carousel-container">
+                    <div class="picture-container">
+                        <img id="picture" src="images/projects/p3-big1.png" alt="project">
+                    </div>
+                </div>
+            </div>
+             <div class="project-page-projects">
+                <div onload="slideShow()" class="project-page-carousel-container">
+                    <div class="picture-container">
+                        <img id="picture" src="images/projects/p4-big1.png" alt="project">
+                    </div>
+                </div>
+            </div>
+             <div class="project-page-projects">
+                <div onload="slideShow()" class="project-page-carousel-container">
+                    <div class="picture-container">
+                        <img id="picture" src="images/projects/p5-big1.png" alt="project">
+                    </div>
+                </div>
+            </div>-->
+
+
+            <!--Working variation now--> 
+                <div class="project-page-projects">
+                <div class="project-page-carousel-container">
+                    <img class="project-page-carousel-1" src="images/project1/p1-big1.png" alt="house"></img>
+                    <img class="project-page-carousel-1" src="images/project1/p1-big2.png" alt="house"></img>
+                    <img class="project-page-carousel-1" src="images/project1/p1-big3.png" alt="house"></img>
+                    <img class="project-page-carousel-1" src="images/project1/p1-big4.png" alt="house"></img>
+                    <img class="project-page-carousel-1" src="images/project1/p1-big5.png" alt="house"></img>
+                </div>
+                <div class="project-page-project-information">
+                    <h3> Hotel with restaurant </h3>
+                    <button id="but-info-1" class="project-page-project-button">More</button>
+                    <p class="hidden-info-1">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment
+                        was carried out ..</p>
+                </div>
+            </div>
+            <div class="project-page-projects" id="second-project">
+                <div class="project-page-carousel-container">
+                    <img class="project-page-carousel-2" src="images/project2/p2-big1.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big2.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big3.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big4.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big5.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big6.png" alt="house"></img>
+                    <img class="project-page-carousel-2" src="images/project2/p2-big7.png" alt="house"></img>
+                </div>
+                <div class="project-page-project-information">
+                    <h3> Hotel with restaurant </h3>
+                    <button id="but-info-2" class="project-page-project-button">More</button>
+                    <p class="hidden-info-2"> exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <div class="project-page-projects" id="third-project">
+                <div class="project-page-carousel-container">
+                    <img class="project-page-carousel-3" src="images/project3/p3-big1.png" alt="house"></img>
+                    <img class="project-page-carousel-3" src="images/project3/p3-big2.png" alt="house"></img>
+                    <img class="project-page-carousel-3" src="images/project3/p3-big3.png" alt="house"></img>
+                </div>
+                <div class="project-page-project-information">
+                    <h3> Hotel with restaurant </h3>
+                    <button id="but-info-3" class="project-page-project-button">More</button>
+                    <p class="hidden-info-3"> exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <div class="project-page-projects" id="fourth-project">
+                <div class="project-page-carousel-container">
+                    <img class="project-page-carousel-4" src="images/project4/p4-big1.png" alt="house"></img>
+                    <img class="project-page-carousel-4" src="images/project4/p4-big2.png" alt="house"></img>
+                    <img class="project-page-carousel-4" src="images/project4/p4-big3.png" alt="house"></img>
+                    <img class="project-page-carousel-4" src="images/project4/p4-big4.png" alt="house"></img>
+                    <img class="project-page-carousel-4" src="images/project4/p4-big5.png" alt="house"></img>
+                    <img class="project-page-carousel-4" src="images/project4/p4-big6.png" alt="house"></img>
+                </div>
+                <div class="project-page-project-information">
+                    <h3> Hotel with restaurant </h3>
+                    <button id="but-info-4" class="project-page-project-button">More</button>
+                    <p class="hidden-info-4"> exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <div class="project-page-projects" id="fifth-project">
+                <div class="project-page-carousel-container">
+                    <img class="project-page-carousel-5" src="images/project5/p5-big1.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big2.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big3.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big4.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big5.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big6.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big7.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big8.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big9.png"  alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big10.png" alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big11.png" alt="house"></img>
+                    <img class="project-page-carousel-5" src="images/project5/p5-big12.png" alt="house"></img>
+                </div>
+                <div class="project-page-project-information">
+                    <h3> Hotel with restaurant </h3>
+                    <button id="but-info-5" class="project-page-project-button">More</button>
+                    <p class="hidden-info-5"> exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>-->
+        </content>
+    </main>
+    <footer>
+        <div id="top-footer">
+            <div id="ft-container">
+                <aside id="footer1">
+                    <h3>CorrecTeam</h3>
+                    <div id="footer1-text">
+                        <p>The company was found since 2008 year.</p>
+                        <p>There are 150 projects done.</p>
+                    </div>
+                </aside>
+                <aside id="footer2">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </aside>
+                <aside id="footer3">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li><span class="glyphicon glyphicon-envelope"></span>office@correcteam.com</li>
+                        <li><span class="glyphicon glyphicon-map-marker"></span>Bulgaria, Smolyan, str.1-vi May</li>
+                        <li><span class="glyphicon glyphicon-earphone"></span>+359 888 678 345</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <div id="bottom-footer">
+            <div id="author">Author: Trifon Trifonov</div>
+            <div id="company-rights">&copy 2016 All rights reserved Correcteam Ltd.</div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/projectpage.js"></script>
+</body>
+
+</html>
