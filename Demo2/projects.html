@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Construction and renovation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <!--Div element for the Logo-->
+                <div id="logo">
+                    <img src="images/logo/logo.png" alt="logo" />
+                </div>
+                <!--List for navigation menu links-->
+                <ul>
+                    <li><a href="home.html" id="active">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Content element as container-->
+        <content id="project-page">
+            <!--Div element for the side menu-->
+            <div id="side-menu">
+                <!--Div element for the navigation part with houses from the side menu-->
+                <div id="all-projects">
+                    <!--List element for all projects in navigation menu-->
+                    <ul>
+                        <li>
+                            <h3>Select Project</h3>
+                        </li>
+                        <li>
+                            <a href="#first-project"><img src="images/project1/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#second-project"><img src="images/project2/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#third-project"><img src="images/project3/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#fourth-project"><img src="images/project4/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#fifth-project"><img src="images/project5/small.png" alt="house"></img>
+                            </a>
+                        </li>
+                        <li><button id="open-close-calculator"><h4>Calculate renovation</h4></button></li>
+                    </ul>
+                </div>
+                <!--Div element for the calculator part of side menu-->
+                <div id="calculator">
+                    <h3>Renovation Calculator</h3>
+                    <!--Div element for the calculator body -->
+                    <div id="calculator-body">
+                        <!--Form element for the calculator functionalities-->
+                        <form>
+                            <h4>Choose isolation material</h4>
+                            <!--Select element to choose what kind of isolation material -->
+                            <select name="material" required>
+                                <option></option>
+                                <option value="eps">EPS</option>
+                                <option value="neopor">Neopor</option>
+                            </select>
+                            <h4>Choose width of isolation material</h4>
+                            <!--Select element for width of the isolation material-->
+                            <select name="widthOfMaterial" id="generatedOutput" required>
+                            </select>
+                            <!--input element in  h4 element for user to choose scaffold-->
+                            <h4><input type="checkbox" name="scaffold" value="2.60">Delivery, installation and dismantling of
+                                scaffold (2.60lv m<sup>2</sup>)</h4>
+                            <!--input element in  h4 element for user to choose self-draining and strips-->
+                            <h4><input type="checkbox" name="strips" value="8">Installation of self-draining and strips (8lv
+                                m
+                                <sup>2</sup>)</h4>
+                            <!--input element in  h4 element for user to choose galvanized roofs-->
+                            <h4><input type="checkbox" name="roofs" value="10">Installation of galvanized roofs (10lv m<sup>2</sup>)</h4>
+                            <!--input element in  h4 element for user to choose main runner-->
+                            <h4><input type="checkbox" name="mRunner" value="12">Main Runner (12lv m<sup>2</sup>)</h4>
+                            <!--input element in  h4 element for user to enter quadratic meters-->
+                            <h4>How many m2?<input type="number" name="quantity" min="1" max="10000" required/></h4>
+                            <strong>Important! Please when you change services above, re-enter your m<sup>2</sup></strong>
+                            <h4>Total: <span id="total"></span></h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Div element for projects container-->
+            <div class="project-page-projects" id="first-project">
+                <!--Div element box for each project -->
+                <div class="project-page-carousel-container">
+                    <div id="carousel-1" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <!--Image elements for project -->
+                            <div class="active item"><img src="images/project1/p1-big1.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project1/p1-big2.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project1/p1-big3.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project1/p1-big4.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project1/p1-big5.png" alt="house"></img>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#carousel-1" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#carousel-1" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+                <!--Div element for project information -->
+                <div class="project-page-project-information">
+                    <h3>Small Hotel with restaurant </h3>
+                    <!--Button element to show and hide project information -->
+                    <button id="but-info-1" class="project-page-project-button">More</button>
+                    <p class="hidden-info-1">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment
+                        was carried out ..</p>
+                </div>
+            </div>
+            <!--Div element for projects container-->
+            <div class="project-page-projects" id="second-project">
+                <!--Div element box for each project -->
+                <div class="project-page-carousel-container">
+                    <div id="carousel-2" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <!--Image elements for project -->
+                            <div class="active item"><img src="images/project2/p2-big1.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big2.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big3.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big4.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big5.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big6.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project2/p2-big7.png" alt="house"></img>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#carousel-2" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#carousel-2" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+                <!--Div element for project information -->
+                <div class="project-page-project-information">
+                    <h3> Family House </h3>
+                    <!--Button element to show and hide project information -->
+                    <button id="but-info-2" class="project-page-project-button">More</button>
+                    <p class="hidden-info-2">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <!--Div element for projects container-->
+            <div class="project-page-projects" id="third-project">
+                <!--Div element box for each project -->
+                <div class="project-page-carousel-container">
+                    <div id="carousel-3" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <!--Image elements for project -->
+                            <div class="active item"><img src="images/project3/p3-big1.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project3/p3-big2.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project3/p3-big3.png" alt="house"></img>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#carousel-3" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#carousel-3" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+                <!--Div element for project information -->
+                <div class="project-page-project-information">
+                    <h3>Mountain House</h3>
+                    <!--Button element to show and hide project information -->
+                    <button id="but-info-3" class="project-page-project-button">More</button>
+                    <p class="hidden-info-3">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <!--Div element for projects container-->
+            <div class="project-page-projects" id="fourth-project">
+                <!--Div element box for each project -->
+                <div class="project-page-carousel-container">
+                    <div id="carousel-4" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <!--Image elements for project -->
+                            <div class="active item"><img src="images/project4/p4-big1.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project4/p4-big2.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project4/p4-big3.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project4/p4-big4.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project4/p4-big5.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project4/p4-big6.png" alt="house"></img>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#carousel-4" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#carousel-4" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+                <!--Div element for project information -->
+                <div class="project-page-project-information">
+                    <h3> Family House with Barbeque </h3>
+                    <!--Button element to show and hide project information -->
+                    <button id="but-info-4" class="project-page-project-button">More</button>
+                    <p class="hidden-info-4">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+            <!--Div element for projects container-->
+            <div class="project-page-projects" id="fifth-project">
+                <!--Div element box for each project -->
+                <div class="project-page-carousel-container">
+                    <!--Image elements for project -->
+                    <div id="carousel-5" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <!--Image elements for project -->
+                            <div class="active item"><img src="images/project5/p5-big1.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big2.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big3.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big4.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big5.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big6.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big7.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big8.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big9.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big10.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big11.png" alt="house"></img>
+                            </div>
+                            <div class="item"><img src="images/project5/p5-big12.png" alt="house"></img>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#carousel-5" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#carousel-5" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+                <!--Div element for project information -->
+                <div class="project-page-project-information">
+                    <h3> Family Hotel with restaurant </h3>
+                    <!--Button element to show and hide project information -->
+                    <button id="but-info-5" class="project-page-project-button">More</button>
+                    <p class="hidden-info-5">The renovation covered the complete replacement of exterior insulation and replacement of windows, refurbishment was carried out ..</p>
+                </div>
+            </div>
+        </content>
+    </main>
+    <!--Footer-->
+    <footer>
+        <!--Div element for top footer-->
+        <div id="top-footer">
+            <!--Div element for footer container-->
+            <div id="ft-container">
+                <!--Aside element for first column footer-->
+                <aside id="footer1">
+                    <h3>CorrecTeam</h3>
+                    <!--Div element for text information in first column-->
+                    <div id="footer1-text">
+                        <p>The company was found since 2008 year.</p>
+                        <p>There are 150 projects done.</p>
+                    </div>
+                </aside>
+                <!--Aside element for second column footer-->
+                <aside id="footer2">
+                    <!--Title of second column-->
+                    <h3>Menu</h3>
+                    <!--List with map navigation of the site-->
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </aside>
+                <!--Aside element for third column footer-->
+                <aside id="footer3">
+                    <!--Title of third column-->
+                    <h3>Contacts</h3>
+                    <!--List with contacts information-->
+                    <ul>
+                        <li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:office@correcteam.com">office@correcteam.com</a></li>
+                        <li><span class="glyphicon glyphicon-map-marker"></span>Bulgaria, Smolyan, str.1-vi May</li>
+                        <li><span class="glyphicon glyphicon-earphone"></span>+359 888 678 345</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <!--Div element for bottom footer-->
+        <div id="bottom-footer">
+            <!--Div element for author's name-->
+            <div id="author">Author: Trifon Trifonov</div>
+            <!--Div element for copyrights-->
+            <div id="company-rights">&copy 2016 All rights reserved Correcteam Ltd.</div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/projectpage.js"></script>
+</body>
+</html>
