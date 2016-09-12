@@ -163,7 +163,7 @@ $(function () {
 
     //Carousel function for testimonials
 
-    var slideImage = 0;
+    var slideInformation = 0;
 
     //Function that change testimonials information
 
@@ -172,30 +172,30 @@ $(function () {
 
         //Initialize variable amd assign selected by class element from DOM
 
-        var images = document.getElementsByClassName("carousel-testimonials");
+        var information = document.getElementsByClassName("carousel-testimonials");
 
-        //Iterate through the length of images
-        for (i = 0; i < images.length; i++) {
+        //Iterate through the length of information
+        for (i = 0; i < information.length; i++) {
 
-            //Hide all images
-            images[i].style.display = "none";
+            //Hide all information
+            information[i].style.display = "none";
         }
 
         //Increment for the next image
 
-        slideImage++;
+        slideInformation++;
 
         //Check if is the last image
 
-        if (slideImage > images.length) {
+        if (slideInformation > information.length) {
 
-            //Assign slideImage to the first image
+            //Assign slideInformation to the first image
 
-            slideImage = 1
+            slideInformation = 1
         }
 
         //Show the previous image
-        images[slideImage - 1].style.display = "block";
+        information[slideInformation - 1].style.display = "block";
 
         //Invoke function setTimeout with parameters function carousel and time
         setTimeout(carousel, 3000);
