@@ -39,17 +39,17 @@ $(document).ready(function () {
     //Select every anchor element that contains # in the begging of it's href but it's not equal to #
     //Attach click function to sthe selected elements
     
-    var list = $('a[href=#first-project],a[href=#second-project],a[href=#third-project],a[href=#fourth-project],a[href=#fifth-project]');
+    var list = $("a[href=#first-project],a[href=#second-project],a[href=#third-project],a[href=#fourth-project],a[href=#fifth-project]");
     list.click(function () {
 
         //Select html and body tags from DOM and attach to them animate function
 
-        $('html, body').animate({
+        $("html, body").animate({
 
             //Use scrolltop for every of the anchor elements with
             //attribute href and set the coordinates of each element from top
 
-            scrollTop: $($(this).attr('href')).offset().top
+            scrollTop: $($(this).attr("href")).offset().top
         }, 700);
         return false;
     });
@@ -99,13 +99,17 @@ $(document).ready(function () {
 
     // Function that output the index, width and price of isolation materials
     $(function () {
-        //Attach an on function to catch when option value of select element will change
+        //Attach an on change event to catch when option value of select element will change
 
         $("select[name='material']").on("change", function () {
 
-            //Get contents of selection
+            
+            //Hide these options that are not choose
 
             $("select[name='widthOfMaterial']").html("");
+
+            //Check which material has been chosen
+
             if ("eps" == $(this).val()) {
                 for (var widthOfMaterial in eps) {
 
@@ -147,7 +151,7 @@ $(document).ready(function () {
         //Check if scaffold checkbox is checked or unchecked and assign and unassign value 
 
         $("input[name=scaffold]").change(function () {
-            var ischecked = $(this).is(':checked');
+            var ischecked = $(this).is(":checked");
             if (!ischecked) {
                 scaffold = 0;
                 console.log("scaffold = " + scaffold);
@@ -160,7 +164,7 @@ $(document).ready(function () {
         //Check if strips checkbox is checked or unchecked and assign and unassign value
 
         $("input[name=strips]").change(function () {
-            var ischecked = $(this).is(':checked');
+            var ischecked = $(this).is(":checked");
             if (!ischecked) {
                 strips = 0;
                 console.log("strips = " + strips);
@@ -173,7 +177,7 @@ $(document).ready(function () {
         //Check if roofs checkbox is checked or unchecked and assign and unassign value
 
         $("input[name=roofs]").change(function () {
-            var ischecked = $(this).is(':checked');
+            var ischecked = $(this).is(":checked");
             if (!ischecked) {
                 roofs = 0;
                 console.log("roofs = " + roofs);
@@ -186,7 +190,7 @@ $(document).ready(function () {
         //Check if mRunner checkbox is checked or unchecked and assign and unassign value
 
         $("input[name=mRunner]").change(function () {
-            var ischecked = $(this).is(':checked');
+            var ischecked = $(this).is(":checked");
             if (!ischecked) {
                 mRunner = 0;
                 console.log("mRunner = " + mRunner);

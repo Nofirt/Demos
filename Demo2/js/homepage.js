@@ -181,20 +181,20 @@ $(function () {
             information[i].style.display = "none";
         }
 
-        //Increment for the next image
+        //Increment for the next information
 
         slideInformation++;
 
-        //Check if is the last image
+        //Check if is the last information
 
         if (slideInformation > information.length) {
 
-            //Assign slideInformation to the first image
+            //Assign slideInformation to the first information
 
             slideInformation = 1
         }
 
-        //Show the previous image
+        //Show the previous information
         information[slideInformation - 1].style.display = "block";
 
         //Invoke function setTimeout with parameters function carousel and time
